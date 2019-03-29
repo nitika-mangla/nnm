@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>child project title</title>
+  <content>
+    <toc>
+      <path>../../toc/Default.toc</path>
+      <name>Default</name>
+    </toc>
+    <index type="boolean">true</index>
+  </content>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/sumahesh/Documents/My RoboHelp Projects/outputs/child project/Sanity_19</outputPath>
+  <name>Sanity_19</name>
+  <starterPage>index.htm</starterPage>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit type="number">100</contextLimit>
+    <glossary type="boolean">true</glossary>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+  </sitemap>
+  <createThumbNails type="boolean">false</createThumbNails>
+</preset>

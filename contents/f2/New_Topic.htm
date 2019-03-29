@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>xczvc</title>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css" />
+</head>
+<body>
+  <h1>New Topicxcvxv</h1>
+  <h3 id="how-locking-works">How Locking Works</h3>
+  <p>If you have a file checked out when you lock it, its status is modified to contain the new lock type. If the files are not checked out, a &quot;lock&quot; change is added to the set of pending workspace changes. Unlike the<span> </span><strong>checkout</strong>command,<span> </span><strong>lock</strong><span> </span>does not automatically make a file editable.</p>
+  <p>Locks on folders are implicitly recursive. If you lock a folder, you do not have to lock the files it contains unless you want to apply the more restrictive check-out lock to a file in a folder that has a check-in lock.</p>
+  <h3 id="unlocking-an-item">Unlocking an Item</h3>
+  <p>You can unlock a locked item using the<span> </span><strong>none</strong><span> </span>option. Additionally, Team Foundation unlocks an item automatically when you check in pending changes in the workspace.</p>
+  <p>You can determine which files are locked in the Team Foundation version control server and by whom the files were locked using the<span> </span><a data-linktype="relative-path" href="https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/status-command?view=azure-devops">Status Command</a>.</p>
+  <h2 id="examples">Examples</h2>
+  <p>The following example prevents other users from checking out 314.cs.</p>
+  <p><span></span><button data-bi-name="copy"><span></span><span>Copy</span></button></p>
+  <pre><code data-author-content="c:\projects&gt;tf lock /lock:checkout 314.cs
+">c:\projects&gt;tf lock /lock:checkout 314.cs
+</code></pre>
+  <p>The following example prevents other users from checking in changes to 1256.cs but enables them to check it out in their workspaces.</p>
+  <p><span></span><button data-bi-name="copy"><span></span><span>Copy</span></button></p>
+  <pre><code data-author-content="c:\projects&gt;tf lock /lock:checkin 1256.cs
+">c:\projects&gt;tf lock /lock:checkin 1256.cs
+</code></pre>
+  <p><a id="bookmark"></a>The following example prevents other users from pending changes to any items in the src/ folder in the Team Foundation version control server.</p>
+  <p><span></span><button data-bi-name="copy"><span></span><span>Copy</span></button></p>
+  <pre><code data-author-content="c:\projects&gt;tf lock /lock:checkout $/src
+">c:\projects&gt;tf lock /lock:checkout $/src</code></pre>
+</body>
+</html>

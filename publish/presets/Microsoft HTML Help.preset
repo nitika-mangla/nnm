@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Blank Project</title>
+  <content>
+    <toc>
+      <name>Default</name>
+      <path>../../toc/Default.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
+    </glossary>
+    <brs type="array"></brs>
+    <masterpage></masterpage>
+    <mapFiles type="array"></mapFiles>
+    <windowsSetting></windowsSetting>
+  </content>
+  <type>chm</type>
+  <outputPath>C:/Users/nitika/Documents/My RoboHelp Projects/outputs/child project/Microsoft HTML Help/</outputPath>
+  <name>Microsoft HTML Help</name>
+  <starterPage>Default.chm</starterPage>
+  <defaultTopic>
+    <name>First_Topic</name>
+    <path>../../contents/First_Topic.htm</path>
+  </defaultTopic>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+</preset>

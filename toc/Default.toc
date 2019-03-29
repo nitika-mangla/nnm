@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <title>Table of Contents</title>
+  <book navtitle="assets">
+    <page href="../contents/assets/New_Topic.htm"></page>
+  </book>
+  <book navtitle="f1">
+    <page href="../contents/f1/New_Topic.htm"></page>
+  </book>
+  <book navtitle="f2">
+    <book href="../contents/f2/New_Topic.htm">
+      <page navtitle="how-locking-works" href="../contents/f2/New_Topic.htm#how-locking-works"></page>
+      <page navtitle="unlocking-an-item" href="../contents/f2/New_Topic.htm#unlocking-an-item"></page>
+      <page navtitle="examples" href="../contents/f2/New_Topic.htm#examples"></page>
+      <page navtitle="bookmark" href="../contents/f2/New_Topic.htm#bookmark"></page>
+    </book>
+  </book>
+  <book navtitle="f3">
+    <page href="../contents/f3/New_Topic.htm"></page>
+  </book>
+  <book navtitle="f4">
+    <page href="../contents/f4/New_Topic.htm"></page>
+  </book>
+  <book navtitle="f5">
+    <page href="../contents/f5/New_Topic.htm"></page>
+  </book>
+  <page href="../contents/First_Topic.htm"></page>
+</map>
